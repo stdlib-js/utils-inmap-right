@@ -229,6 +229,13 @@ console.log( out );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/for-each-right`][@stdlib/utils/for-each-right]: invoke a function for each element in a collection, iterating from right to left.
+-   [`@stdlib/utils/inmap`][@stdlib/utils/inmap]: invoke a function for each element in a collection and update the collection in-place.
+
 </section>
 
 <!-- /.related -->
@@ -297,6 +304,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [mdn-object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
 [mdn-array-map]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+<!-- <related-links> -->
+
+[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right
+
+[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap
+
+<!-- </related-links> -->
 
 </section>
 
