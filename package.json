@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/utils-inmap-right",
+  "version": "0.0.0",
+  "description": "Invoke a function for each element in a collection and update the collection in-place, iterating from right to left.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-inmap-right.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "inmap",
+    "inmapright",
+    "right",
+    "map",
+    "array.map",
+    "iterate",
+    "in-place",
+    "mutate",
+    "collection",
+    "typed-array",
+    "typed array",
+    "typed",
+    "array",
+    "array-like"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
