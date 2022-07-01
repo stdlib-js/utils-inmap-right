@@ -34,32 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-inmap-right
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-inmapRight = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.inmapRight;
-})();
-</script>
+var inmapRight = require( '@stdlib/utils-inmap-right' );
 ```
 
 #### inmapRight( collection, fcn\[, thisArg ] )
@@ -190,13 +188,8 @@ var mean = context.sum / context.count;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {.isPrimitive;
+```javascript
+var isEven = require( '@stdlib/assert-is-even' ).isPrimitive;
 var inmapRight = require( '@stdlib/utils-inmap-right' );
 
 var bool;
@@ -226,11 +219,6 @@ bool = ( out === arr );
 console.log( bool );
 
 console.log( out );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -325,6 +313,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/utils-inmap-right/tree/deno
 [umd-url]: https://github.com/stdlib-js/utils-inmap-right/tree/umd
 [esm-url]: https://github.com/stdlib-js/utils-inmap-right/tree/esm
+[branches-url]: https://github.com/stdlib-js/utils-inmap-right/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-inmap-right/main/LICENSE
 
@@ -338,9 +327,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right/tree/umd
+[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right
 
-[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap/tree/umd
+[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap
 
 <!-- </related-links> -->
 
