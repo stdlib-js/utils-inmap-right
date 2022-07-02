@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.inmapRight;
+})();
 })();
 </script>
 ```
@@ -202,6 +204,7 @@ var mean = context.sum / context.count;
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even@umd/browser.js"></script>
 <script type="text/javascript">
+(function () {
 (function () {.isPrimitive;
 var inmapRight = require( '@stdlib/utils-inmap-right' );
 
@@ -233,6 +236,7 @@ console.log( bool );
 
 console.log( out );
 
+})();
 })();
 </script>
 </body>
@@ -345,9 +349,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right/tree/umd
+[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right/tree/umd/tree/umd
 
-[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap/tree/umd
+[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
