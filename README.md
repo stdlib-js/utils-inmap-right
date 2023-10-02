@@ -45,19 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-inmap-right
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-inmap-right/tags). For example,
-
-```javascript
-import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@v0.1.0-esm/index.mjs';
+var inmapRight = require( '@stdlib/utils-inmap-right' );
 ```
 
 #### inmapRight( collection, fcn\[, thisArg ] )
@@ -188,14 +199,9 @@ var mean = context.sum / context.count;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-var isEven = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even' ).isPrimitive;
-import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@esm/index.mjs';
+```javascript
+var isEven = require( '@stdlib/assert-is-even' ).isPrimitive;
+var inmapRight = require( '@stdlib/utils-inmap-right' );
 
 var bool;
 var arr;
@@ -224,10 +230,6 @@ bool = ( out === arr );
 console.log( bool );
 
 console.log( out );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -266,7 +268,7 @@ console.log( out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -296,8 +298,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/utils-inmap-right.svg
 [npm-url]: https://npmjs.org/package/@stdlib/utils-inmap-right
 
-[test-image]: https://github.com/stdlib-js/utils-inmap-right/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/utils-inmap-right/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/utils-inmap-right/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/utils-inmap-right/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-inmap-right/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-inmap-right?branch=main
@@ -336,9 +338,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right/tree/esm
+[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right
 
-[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap/tree/esm
+[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap
 
 <!-- </related-links> -->
 
