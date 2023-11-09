@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-inmap-right
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@deno/mod.js';
+var inmapRight = require( '@stdlib/utils-inmap-right' );
 ```
 
 #### inmapRight( collection, fcn\[, thisArg ] )
@@ -184,8 +200,8 @@ var mean = context.sum / context.count;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var isEven = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even' ).isPrimitive;
-import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@deno/mod.js';
+var isEven = require( '@stdlib/assert-is-even' ).isPrimitive;
+var inmapRight = require( '@stdlib/utils-inmap-right' );
 
 var bool;
 var arr;
@@ -238,6 +254,7 @@ console.log( out );
 
 -   <span class="package-name">[`@stdlib/utils-for-each-right`][@stdlib/utils/for-each-right]</span><span class="delimiter">: </span><span class="description">invoke a function for each element in a collection, iterating from right to left.</span>
 -   <span class="package-name">[`@stdlib/utils-inmap`][@stdlib/utils/inmap]</span><span class="delimiter">: </span><span class="description">invoke a function for each element in a collection and update the collection in-place.</span>
+-   <span class="package-name">[`@stdlib/utils-map-right`][@stdlib/utils/map-right]</span><span class="delimiter">: </span><span class="description">apply a function to each element in an array and assign the result to an element in an output array, iterating from right to left.</span>
 
 </section>
 
@@ -252,7 +269,7 @@ console.log( out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -322,9 +339,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right/tree/deno
+[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right
 
-[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap/tree/deno
+[@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap
+
+[@stdlib/utils/map-right]: https://github.com/stdlib-js/utils-map-right
 
 <!-- </related-links> -->
 
