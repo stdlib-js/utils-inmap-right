@@ -254,6 +254,7 @@ console.log( out );
 
 -   <span class="package-name">[`@stdlib/utils-for-each-right`][@stdlib/utils/for-each-right]</span><span class="delimiter">: </span><span class="description">invoke a function for each element in a collection, iterating from right to left.</span>
 -   <span class="package-name">[`@stdlib/utils-inmap`][@stdlib/utils/inmap]</span><span class="delimiter">: </span><span class="description">invoke a function for each element in a collection and update the collection in-place.</span>
+-   <span class="package-name">[`@stdlib/utils-map-right`][@stdlib/utils/map-right]</span><span class="delimiter">: </span><span class="description">apply a function to each element in an array and assign the result to an element in an output array, iterating from right to left.</span>
 
 </section>
 
@@ -341,6 +342,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right
 
 [@stdlib/utils/inmap]: https://github.com/stdlib-js/utils-inmap
+
+[@stdlib/utils/map-right]: https://github.com/stdlib-js/utils-map-right
 
 <!-- </related-links> -->
 
