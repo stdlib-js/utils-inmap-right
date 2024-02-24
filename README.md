@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@deno/mod.js';
+import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@v0.2.1-deno/mod.js';
 ```
 
 #### inmapRight( collection, fcn\[, thisArg ] )
@@ -185,7 +185,7 @@ var mean = context.sum / context.count;
 
 ```javascript
 var isEven = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even' ).isPrimitive;
-import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@deno/mod.js';
+import inmapRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap-right@v0.2.1-deno/mod.js';
 
 var bool;
 var arr;
