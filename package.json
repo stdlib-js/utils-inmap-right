@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-inmap-right",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Invoke a function for each element in a collection and update the collection in-place, iterating from right to left.",
   "license": "Apache-2.0",
   "author": {
@@ -38,16 +38,16 @@
   },
   "dependencies": {
     "@stdlib/assert-is-collection": "^0.2.1",
-    "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.2.1",
-    "@stdlib/assert-is-even": "^0.2.1",
-    "@stdlib/constants-float64-eps": "^0.2.1",
-    "@stdlib/utils-noop": "^0.2.1",
+    "@stdlib/array-float64": "^0.2.2",
+    "@stdlib/assert-is-even": "^0.2.2",
+    "@stdlib/constants-float64-eps": "^0.2.2",
+    "@stdlib/utils-noop": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
